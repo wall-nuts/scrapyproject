@@ -12,3 +12,12 @@ class TutorialItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class DingdianItem(scrapy.Item):
+    name = scrapy.Field()
+    author = scrapy.Field()
+    novelurl = scrapy.Field()
+    serialstatus = scrapy.Field()
+    serialnumber = scrapy.Field()
+    category = scrapy.Field()
+    name_id = scrapy.Field()

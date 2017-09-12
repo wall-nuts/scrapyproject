@@ -12,18 +12,27 @@ class Dingdian(scrapy.Spider):
     base_url = 'http://www.x23us.com/class/'
     baseurl = '.html'
     def start_requests(self):
-        for i in range(1,11):
+        for i in range(1,2):
             url = self.base_url + str(i) + '_1' + self.baseurl
-            yield Request(url,self.parse)
-        yield Request('http://www.x23us.com/quanben/1',callback = self.parse)
+            yield Request(url,self.parse,meta={'num':i})
+        # yield Request('http://www.x23us.com/quanben/1',callback = self.parse,meta={'num':10})
 
     def parse(self, response):
         max_num = response.selector.xpath('//a[@class="last"]/text()').extract()
         baseurl = response.url[:-7]
         for num in range(1,int(max_num[0]) + 1):
             url = baseurl + '_' + str(num) + self.baseurl
-            yield Request(url,callback=self.get_name)
+            yield Request(url,callback=self.get_name,meta={'num':response.meta['num']})
 
     def get_name(self,response):
-        tds = response.selector.xpath('//*[@id="content"]/dd[1]/table/tbody/tr[2]/td[1]/a[2]')
-        print(tds)
+        tags = ['玄幻魔法','武侠修真','都市言情','历史军事','侦探推理','网游动漫','科幻小说','恐怖灵异','散文诗词','其他','全本']
+        item = DingdianItem()
+        for i in range(30):
+            item['title'] = response.selector.xpath('//td[@class="L"]/a[2]/text()').extract()[i]
+            item['author'] = response.selector.xpath('//tr[@bgcolor="#FFFFFF"]/td[3]/text()').extract()[i]
+            item['word_count'] = response.selector.xpath('//tr[@bgcolor="#FFFFFF"]/td[4]/text()').extract()[i]
+            item['update_date'] = response.selector.xpath('//tr[@bgcolor="#FFFFFF"]/td[5]/text()').extract()[i]
+            item['status'] = response.selector.xpath('//tr[@bgcolor="#FFFFFF"]/td[6]/text()').extract()[i]
+            item['tag'] = tags[response.meta['num']-1]
+            yield item
+        # print(tds)

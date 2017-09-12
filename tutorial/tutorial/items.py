@@ -14,10 +14,9 @@ class TutorialItem(scrapy.Item):
     pass
 
 class DingdianItem(scrapy.Item):
-    name = scrapy.Field()
+    title = scrapy.Field()
     author = scrapy.Field()
-    novelurl = scrapy.Field()
-    serialstatus = scrapy.Field()
-    serialnumber = scrapy.Field()
-    category = scrapy.Field()
-    name_id = scrapy.Field()
+    word_count = scrapy.Field()
+    update_date = scrapy.Field()
+    status = scrapy.Field()
+    tag = scrapy.Field()

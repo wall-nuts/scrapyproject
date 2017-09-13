@@ -3,7 +3,7 @@ import scrapy
 # from scrapy.selector import Selector
 from scrapy.http import HtmlResponse
 from scrapy.http import Request
-from ..items import DingdianItem
+from ..items import DingdianItem,ChapterItem
 
 class Dingdian(scrapy.Spider):
 
@@ -35,4 +35,20 @@ class Dingdian(scrapy.Spider):
             item['status'] = response.selector.xpath('//tr[@bgcolor="#FFFFFF"]/td[6]/text()').extract()[i]
             item['tag'] = tags[response.meta['num']-1]
             yield item
-        # print(tds)
+            paper_url = response.selector.xpath('//td[@class="L"]/a[2]/@href').extract()[i]
+            yield Request(paper_url,callback=self.get_chapter,meta={'noval_name':item['title']})
+
+    def get_chapter(self,response):
+        base_url = response.url
+        chapter_urls = response.selector.xpath('//td[@class="L"]/a/@href').extract()
+        for i in range(len(chapter_urls)):
+            url = base_url + chapter_urls[i]
+            title = response.selector.xpath('//td[@class="L"]/a/text()').extract()[i]
+            yield Request(url,callback=self.get_paper,meta={'noval_name':response.meta['noval_name'],'title':title})
+
+    def get_paper(self,response):
+        item = ChapterItem()
+        item['noval_name'] = response.meta['noval_name']
+        item['title'] = response.meta['title']
+        item['p']= response.selector.xpath('//dd[@id="contents"]/text()').extract()
+        yield item

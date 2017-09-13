@@ -20,3 +20,9 @@ class DingdianItem(scrapy.Item):
     update_date = scrapy.Field()
     status = scrapy.Field()
     tag = scrapy.Field()
+    url = scrapy.Field()
+
+class ChapterItem(scrapy.Item):
+    noval_name = scrapy.Field()
+    title = scrapy.Field()
+    p = scrapy.Field()

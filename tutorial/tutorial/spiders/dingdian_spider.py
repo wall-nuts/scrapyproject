@@ -1,3 +1,4 @@
+#coding:utf-8
 import re
 import scrapy
 # from scrapy.selector import Selector
@@ -14,7 +15,7 @@ class Dingdian(scrapy.Spider):
     def start_requests(self):
         for i in range(1,2):
             url = self.base_url + str(i) + '_1' + self.baseurl
-            yield Request(url,self.parse,meta={'num':i})
+            yield Request(url,self.parse,meta={'num':i,'proxy':'118.193.196.124:80'})
         # yield Request('http://www.x23us.com/quanben/1',callback = self.parse,meta={'num':10})
 
     def parse(self, response):
@@ -27,7 +28,7 @@ class Dingdian(scrapy.Spider):
     def get_name(self,response):
         tags = ['玄幻魔法','武侠修真','都市言情','历史军事','侦探推理','网游动漫','科幻小说','恐怖灵异','散文诗词','其他','全本']
         item = DingdianItem()
-        for i in range(30):
+        for i in range(len(response.selector.xpath('//td[@class="L"]/a[2]/text()').extract())):
             item['title'] = response.selector.xpath('//td[@class="L"]/a[2]/text()').extract()[i]
             item['author'] = response.selector.xpath('//tr[@bgcolor="#FFFFFF"]/td[3]/text()').extract()[i]
             item['word_count'] = response.selector.xpath('//tr[@bgcolor="#FFFFFF"]/td[4]/text()').extract()[i]

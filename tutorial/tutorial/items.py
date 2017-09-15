@@ -26,3 +26,7 @@ class ChapterItem(scrapy.Item):
     noval_name = scrapy.Field()
     title = scrapy.Field()
     p = scrapy.Field()
+
+class XiciItem(scrapy.Item):
+    ip = scrapy.Field()
+    port = scrapy.Field()

@@ -15,7 +15,7 @@ class Dingdian(scrapy.Spider):
     def start_requests(self):
         for i in range(1,2):
             url = self.base_url + str(i) + '_1' + self.baseurl
-            yield Request(url,self.parse,meta={'num':i,'proxy':'118.193.196.124:80'})
+            yield Request(url,self.parse,meta={'num':i})
         # yield Request('http://www.x23us.com/quanben/1',callback = self.parse,meta={'num':10})
 
     def parse(self, response):

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import pymysql,os
-from .items import DingdianItem,ChapterItem
+import pymysql,os,PIL
+from .items import DingdianItem,ChapterItem,XiciItem
 # Define your item pipelines here
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
@@ -11,6 +11,8 @@ class TutorialPipeline(object):
     def open_spider(self,spider):
         self.conn = pymysql.connect(host="localhost",user="root",passwd="root",db="dingdian",charset="utf8")
         self.cursor = self.conn.cursor()
+
+
     def process_item(self, item, spider):
         if(isinstance(item,DingdianItem)):
             self.cursor.execute("""
@@ -37,14 +39,24 @@ class TutorialPipeline(object):
                     f.write(j.encode('utf-8'))
             self.cursor.execute("""SELECT id from noval WHERE title = %s""",(item['noval_name']))
             result = self.cursor.fetchone()
+            print(item['title'],file_url.encode('utf-8'))
+            sql = """
+                INSERT INTO chapter(noval_id,title,url) VALUES (%d,%s,%s)
+            """%(result[0],item['title'].encode('utf-8'),file_url.encode('utf-8'))
+            self.cursor.execute(sql)
+            self.conn.commit()
+            return item
+        elif(isinstance(item,XiciItem)):
             self.cursor.execute("""
-            INSERT INTO chapter (noval_id, title, url)
-                                VALUES (%s, %s, %s)
+            INSERT INTO ip_pool (ip, port)
+                                VALUES (%s, %s)
             """,(
-                result[0]
-                item['title'].encode('utf-8'),
-                file_url.encode('utf-8'),
+                item['ip'].encode('utf-8'),
+                item['port'].encode('utf-8'),
             ))
+            self.conn.commit()
+            return item
     def close_spider(self,spider):
         self.cursor.close()
         self.conn.close()
+

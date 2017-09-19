@@ -6,7 +6,7 @@
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+import pymysql,random
 
 class TutorialSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -54,3 +54,13 @@ class TutorialSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+    def random_proxy(self):
+        self.conn = pymysql.connect(host="localhost",user="root",passwd="root",db="dingdian",charset="utf8")
+        self.cursor = self.conn.cursor()
+        self.cursor.execute("""SELECT id from ip_pool """)
+
+
+        self.conn.commit()
+        self.cursor.close()
+        self.conn.close()

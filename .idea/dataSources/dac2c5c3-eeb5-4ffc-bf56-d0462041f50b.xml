@@ -2966,7 +2966,7 @@
     </column>
     <column id="662" parent="68" name="noval_id">
       <Position>2</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(32)|0</DataType>
     </column>
     <column id="663" parent="68" name="title">
       <Position>3</Position>
@@ -2974,7 +2974,7 @@
     </column>
     <column id="664" parent="68" name="url">
       <Position>4</Position>
-      <DataType>char(255)|0</DataType>
+      <DataType>varchar(20000)|0</DataType>
     </column>
     <key id="665" parent="68" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>

@@ -39,11 +39,9 @@ class TutorialPipeline(object):
                     f.write(j.encode('utf-8'))
             self.cursor.execute("""SELECT id from noval WHERE title = %s""",(item['noval_name']))
             result = self.cursor.fetchone()
-            print(item['title'],file_url.encode('utf-8'))
-            sql = """
-                INSERT INTO chapter(noval_id,title,url) VALUES (%d,%s,%s)
-            """%(result[0],item['title'].encode('utf-8'),file_url.encode('utf-8'))
-            self.cursor.execute(sql)
+            self.cursor.execute("""
+                INSERT INTO chapter(noval_id,title,url) VALUES ( %s,%s,%s)
+            """,(result[0],item['title'].encode('utf-8'),file_url.encode('utf-8')))
             self.conn.commit()
             return item
         elif(isinstance(item,XiciItem)):

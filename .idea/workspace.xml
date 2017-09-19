@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba12c736-e8dd-413c-ad89-ccc5c8bbbb73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial/tutorial/spiders/xici_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scrapyproject.iml" afterPath="$PROJECT_DIR$/.idea/scrapyproject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/tutorial/items.py" afterPath="$PROJECT_DIR$/tutorial/tutorial/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/tutorial/pipelines.py" afterPath="$PROJECT_DIR$/tutorial/tutorial/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/tutorial/settings.py" afterPath="$PROJECT_DIR$/tutorial/tutorial/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/dingdian_spider.py" afterPath="$PROJECT_DIR$/tutorial/tutorial/spiders/dingdian_spider.py" />
-    </list>
+    <list default="true" id="ba12c736-e8dd-413c-ad89-ccc5c8bbbb73" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/scrapyproject$runquotes.coverage" NAME="runquotes Coverage Results" MODIFIED="1505096193141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
-    <SUITE FILE_PATH="coverage/scrapyproject$rundingdian.coverage" NAME="rundingdian Coverage Results" MODIFIED="1505467769672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
+    <SUITE FILE_PATH="coverage/scrapyproject$rundingdian.coverage" NAME="rundingdian Coverage Results" MODIFIED="1505714188941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
     <SUITE FILE_PATH="coverage/scrapyproject$xici_spider.coverage" NAME="xici_spider Coverage Results" MODIFIED="1505462427186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial/tutorial/spiders" />
     <SUITE FILE_PATH="coverage/scrapyproject$apitest.coverage" NAME="apitest Coverage Results" MODIFIED="1504841698959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapyproject$itchattest.coverage" NAME="itchattest Coverage Results" MODIFIED="1505121487821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -66,17 +57,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorial/tutorial/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="683">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="25" />
               <folding>
                 <element signature="e#24#45#0" expanded="true" />
-                <marker date="1505467769620" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
-                <marker date="1505467769620" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
-                <marker date="1505467769620" expanded="true" signature="1821:1878" ph="INSERT INTO chapter... " />
-                <marker date="1505467769620" expanded="true" signature="2143:2221" ph="INSERT INTO ip_pool... " />
+                <marker date="1505704888100" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
+                <marker date="1505704888100" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
+                <marker date="1505704888100" expanded="true" signature="1777:1835" ph="INSERT INTO chapter... " />
+                <marker date="1505704888100" expanded="true" signature="2064:2142" ph="INSERT INTO ip_pool... " />
               </folding>
             </state>
           </provider>
@@ -85,7 +76,7 @@
       <file leaf-file-name="dingdian_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/dingdian_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="114">
               <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding />
             </state>
@@ -95,8 +86,8 @@
       <file leaf-file-name="xici_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/xici_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#14#36#0" expanded="true" />
               </folding>
@@ -104,12 +95,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial/scrapy.cfg">
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tutorial/tutorial/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="645">
+              <caret line="60" column="54" lean-forward="false" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+              <folding>
+                <element signature="e#168#194#0" expanded="true" />
+                <marker date="1505727072667" expanded="true" signature="2135:2157" ph="SELECT id fr... ip_pool" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/tutorial/rundingdian.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -154,9 +148,10 @@
         <option value="$PROJECT_DIR$/tutorial/tutorial/spiders/dingdian_spider.py" />
         <option value="$PROJECT_DIR$/tutorial/tutorial/items.py" />
         <option value="$PROJECT_DIR$/tutorial/tutorial/spiders/xici_spider.py" />
+        <option value="$PROJECT_DIR$/tutorial/tutorial/pipelines.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b/console.sql" />
         <option value="$PROJECT_DIR$/tutorial/rundingdian.py" />
-        <option value="$PROJECT_DIR$/tutorial/tutorial/pipelines.py" />
+        <option value="$PROJECT_DIR$/tutorial/tutorial/middlewares.py" />
       </list>
     </option>
   </component>
@@ -167,8 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="782" />
-    <option name="y" value="6" />
+    <option name="x" value="817" />
+    <option name="y" value="2" />
     <option name="width" value="1097" />
     <option name="height" value="1040" />
   </component>
@@ -187,8 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,7 +355,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="782" y="6" width="1097" height="1040" extended-state="0" />
+    <frame x="817" y="2" width="1097" height="1040" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5033751" order="7" side_tool="true" content_ui="tabs" />
@@ -370,7 +365,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22372228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3346191" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -384,25 +379,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5033751" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.4966249" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22372228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5033751" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.4966249" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22372228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3346191" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297975" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -423,16 +418,24 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tutorial/rundingdian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
-            <marker date="1505467769620" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
-            <marker date="1505467769620" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
-            <marker date="1505467769620" expanded="true" signature="1821:1878" ph="INSERT INTO chapter... " />
-            <marker date="1505467769620" expanded="true" signature="2143:2221" ph="INSERT INTO ip_pool... " />
+            <marker date="1505704888100" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
+            <marker date="1505704888100" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
+            <marker date="1505704888100" expanded="true" signature="1777:1835" ph="INSERT INTO chapter... " />
+            <marker date="1505704888100" expanded="true" signature="2064:2142" ph="INSERT INTO ip_pool... " />
           </folding>
         </state>
       </provider>
@@ -448,9 +451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="17" column="80" lean-forward="false" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
-          <folding>
-            <element signature="e#14#23#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,10 +476,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
-            <marker date="1505467769620" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
-            <marker date="1505467769620" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
-            <marker date="1505467769620" expanded="true" signature="1821:1878" ph="INSERT INTO chapter... " />
-            <marker date="1505467769620" expanded="true" signature="2143:2221" ph="INSERT INTO ip_pool... " />
+            <marker date="1505704888100" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
+            <marker date="1505704888100" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
+            <marker date="1505704888100" expanded="true" signature="1777:1835" ph="INSERT INTO chapter... " />
+            <marker date="1505704888100" expanded="true" signature="2064:2142" ph="INSERT INTO ip_pool... " />
           </folding>
         </state>
       </provider>
@@ -490,10 +490,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
-            <marker date="1505467769620" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
-            <marker date="1505467769620" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
-            <marker date="1505467769620" expanded="true" signature="1821:1878" ph="INSERT INTO chapter... " />
-            <marker date="1505467769620" expanded="true" signature="2143:2221" ph="INSERT INTO ip_pool... " />
+            <marker date="1505704888100" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
+            <marker date="1505704888100" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
+            <marker date="1505704888100" expanded="true" signature="1777:1835" ph="INSERT INTO chapter... " />
+            <marker date="1505704888100" expanded="true" signature="2064:2142" ph="INSERT INTO ip_pool... " />
           </folding>
         </state>
       </provider>
@@ -517,9 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="e#14#23#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,10 +555,10 @@
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
-            <marker date="1505467769620" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
-            <marker date="1505467769620" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
-            <marker date="1505467769620" expanded="true" signature="1821:1878" ph="INSERT INTO chapter... " />
-            <marker date="1505467769620" expanded="true" signature="2143:2221" ph="INSERT INTO ip_pool... " />
+            <marker date="1505704888100" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
+            <marker date="1505704888100" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
+            <marker date="1505704888100" expanded="true" signature="1777:1835" ph="INSERT INTO chapter... " />
+            <marker date="1505704888100" expanded="true" signature="2064:2142" ph="INSERT INTO ip_pool... " />
           </folding>
         </state>
       </provider>
@@ -584,9 +582,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="e#14#23#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,19 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,14 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="72" column="51" lean-forward="false" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/bf485762/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b/dingdian.noval">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -750,13 +728,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/xici_spider.py">
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="793">
+          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/bf485762/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b/dingdian.chapter">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding>
-            <element signature="e#14#36#0" expanded="true" />
+            <marker date="1505714153109" expanded="true" signature="0:9" ph="TRUNCATE cha... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/bf485762/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b/dingdian.noval">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -770,24 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/dingdian_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="114">
           <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/rundingdian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -799,23 +783,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/bf485762/dac2c5c3-eeb5-4ffc-bf56-d0462041f50b/dingdian.chapter">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/xici_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/rundingdian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="683">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="25" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
-            <marker date="1505467769620" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
-            <marker date="1505467769620" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
-            <marker date="1505467769620" expanded="true" signature="1821:1878" ph="INSERT INTO chapter... " />
-            <marker date="1505467769620" expanded="true" signature="2143:2221" ph="INSERT INTO ip_pool... " />
+            <marker date="1505704888100" expanded="true" signature="619:756" ph="INSERT INTO noval... " />
+            <marker date="1505704888100" expanded="true" signature="1618:1655" ph="SELECT id fr... noval" />
+            <marker date="1505704888100" expanded="true" signature="1777:1835" ph="INSERT INTO chapter... " />
+            <marker date="1505704888100" expanded="true" signature="2064:2142" ph="INSERT INTO ip_pool... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="60" column="54" lean-forward="false" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <folding>
+            <element signature="e#168#194#0" expanded="true" />
+            <marker date="1505727072667" expanded="true" signature="2135:2157" ph="SELECT id fr... ip_pool" />
           </folding>
         </state>
       </provider>

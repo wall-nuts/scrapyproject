@@ -1,6 +1,6 @@
 #coding:utf-8
 import re
-import scrapy
+import scrapy,pymysql
 # from scrapy.selector import Selector
 from scrapy.http import HtmlResponse
 from scrapy.http import Request

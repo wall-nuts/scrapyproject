@@ -58,9 +58,8 @@ class TutorialSpiderMiddleware(object):
     def random_proxy(self):
         self.conn = pymysql.connect(host="localhost",user="root",passwd="root",db="dingdian",charset="utf8")
         self.cursor = self.conn.cursor()
-        self.cursor.execute("""SELECT id from ip_pool """)
-
-
+        self.cursor.execute("""SELECT * from ip_pool ORDER BY rand() limit 1""")
+        result = self.cursor.fetchone()
         self.conn.commit()
         self.cursor.close()
         self.conn.close()

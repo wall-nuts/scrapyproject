@@ -5,9 +5,11 @@ import scrapy,pymysql
 from scrapy.http import HtmlResponse
 from scrapy.http import Request
 from ..items import DingdianItem,ChapterItem
+from custom.headers import randHeader
 
 class Dingdian(scrapy.Spider):
 
+    header = randHeader()
     name = 'dingdian'
     allowed_domains = ['x23us.com']
     base_url = 'http://www.x23us.com/class/'
@@ -15,7 +17,7 @@ class Dingdian(scrapy.Spider):
     def start_requests(self):
         for i in range(1,2):
             url = self.base_url + str(i) + '_1' + self.baseurl
-            yield Request(url,self.parse,meta={'num':i})
+            yield Request(url,self.parse,headers=self.header, meta={'num':i})
         # yield Request('http://www.x23us.com/quanben/1',callback = self.parse,meta={'num':10})
 
     def parse(self, response):
